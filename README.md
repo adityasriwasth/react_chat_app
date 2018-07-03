@@ -1,19 +1,11 @@
-##ReactJS and Socket.io Chat App Tutorial
+A Chat App using React and socket.io
 
+This chat application allows a user to enter a name of their choice and join a group of users. 
 
-This is the code from a tutorial done on youtube [here](https://www.youtube.com/playlist?list=PLfUtdEcvGHFHdOYFXj4cY6ZIFkSp6MOuY).
+The chat has a sidebar that will list the number of users and enables private messaging.
 
-###Getting Started
+If the app does not load, it might be because some of the node-modules packages are missing. To resolve this, just enter the directory and enter: npm install.
 
-First you'll need to fork or download the respository.
-
-Then in terminal you'll install the node modules
-
-``` npm install ```
-
-Then you can run it using 
-
-``` npm run react ``` to start React dev server.
-``` npm run server ``` to start NodeJS Socket.io server.
-
-
+The App has a server side acting as the backend and the React component which is the frontend.
+To run the backend, type in: npm run server
+To run the React module, type in: npm run react
